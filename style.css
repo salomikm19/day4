@@ -1,0 +1,45 @@
+body{
+    background-image: url('bg.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .container1{
+  width:800px;
+  font-size: 30px;
+  font-style: normal;
+  padding: 30px;
+  background-color: aliceblue;
+  }
+  .container2{
+      background-color: rgb(209, 204, 204);
+      width:800px;
+      font-size: 40px;
+      font-style: normal;
+      text-align: center;
+  }
+  .maincontainer{
+      display:flex;
+  }.contact-icon {
+    min-width: 67px;
+    height: 67px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #784cfb;
+    color:white;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-right: 1rem;
+  }
+  
+  .contact-icon i {
+    line-height: 67px;
+  }
+  .icontext{
+    display: flex;
+    
+  }
+
+  .para{
+    font-size: smaller;
+  }
